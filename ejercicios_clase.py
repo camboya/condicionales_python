@@ -18,21 +18,45 @@ def ej1():
     # Ejercicios de práctica numérica
     
     # Comparadores
-    # Ingrese dos números cualesquiera y realice las sigueintes
+    # Ingrese dos números cualesquiera y realice las siguientes
     # comparaciones entre ellos
-    numero_1 = int(input('Ingrese el primer número:\n'))
 
-    numero_2 = int(input('Ingrese el segundo número:\n'))
+    numero_1 = 10
+    numero_2 = 4
     
-    # Compare cual de los dos números es mayor
+    numero_1 = int(input('8:\n'))
+
+    numero_2 = int(input('6:\n'))
+
+    if numero_1 == numero_2:
+        print ('"numero_1" es igual a  "numero_2"')
+    else:
+        print ('"numero_1" no es igual a  "numero_2"')
+
+
+    # Compare cual de los dos números es mayor >
+    if numero_1 > numero_2:
+        print ('"numero_1" es mayor a "numero_2"')
+    else:
+        print ('"numero_1 no es mayor a "numero_2"')
     # Imprima en pantalla según corresponda
 
     # Verifique si el numero_1 positivo, negativo o cero
     # Imprima el resultado en cada caso
-
+    if numero_1 > numero_2:
+        print ('"numero_1" es positivo')
+    else:
+        print ('"numero_1" es negativo')
 
     # Verifique si el numero_1 es mayor a 0 y menor a 100
     # Imprima en pantalla si se cumple o no la condición
+    if (numero_1 > 0):
+        print ('"numero_1" es mayor a 0')
+    elif (numero_1 < 100):
+        print ('"numero_1" es menor a 100')
+
+
+
 
     # Verifique si el numero_1 es menor a 10 o el numero_2
     # es mayor a -2
@@ -71,6 +95,7 @@ def ej3():
     # Ejercicios de práctica numérica
 
     # Condicionales anidados
+
     numero_1 = 7
     numero_2 = -2
 
@@ -124,7 +149,7 @@ def ej4():
 
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
-    #ej1()
+    ej1()
     #ej2()
     #ej3()
     #ej4()
